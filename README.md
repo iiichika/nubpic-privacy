@@ -16,7 +16,7 @@ NubPic does not collect any data. All photo processing happens on your device, a
 This repository is intended to be served with GitHub Pages. The root `index.html` contains all four languages on a single page.
 
 ```
-https://<username>.github.io/nubpic-privacy/
+https://iiichika.github.io/nubpic-privacy/
 ```
 
 ## Contact
