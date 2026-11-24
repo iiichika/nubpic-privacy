@@ -51,7 +51,7 @@
     <span class="mark" aria-hidden="true">N</span>
     <div>
       <h1>NubPic — Privacy Policy</h1>
-      <div class="muted">Effective date: November 22, 2026</div>
+      <div class="muted">Effective date: November 24, 2026</div>
     </div>
   </div>
 
@@ -67,18 +67,19 @@
   <!-- English -->
   <section id="en" lang="en">
     <h2>English</h2>
-    <p class="muted">Effective date: November 22, 2026</p>
+    <p class="muted">Effective date: November 24, 2026</p>
 
     <h3>1. We collect no data</h3>
-    <p>NubPic does not collect, upload, or store any personal information. The app contains no networking code, no ads, no analytics, no crash reporting, and no push SDKs. Every feature works in Airplane Mode.</p>
+    <p>NubPic does not collect or upload any personal information, and no data is stored on the developer's servers. Photos are processed only on your device, and photos you explicitly import into the App Library are stored only on this device. The app contains no networking code, no ads, no analytics, no crash reporting, and no push SDKs. Importing, redacting, and exporting still work in Airplane Mode; photos that exist only in iCloud must be downloaded first.</p>
 
     <h3>2. How photos are handled</h3>
-    <p>Photos you select are copied into the app's sandboxed temporary directory solely to run detection, redaction, and export on your device. That directory is cleared when the app exits or restarts. We cannot access any other photo in your library.</p>
+    <p>Photos you explicitly import into the App Library are stored in the app's on-device library solely to run detection, redaction, and export on your device. Photos imported from the system library keep a reference and a preview by default; the original stays in Photos and is read only when you open or export it, which requires Photo Library access. You can save the original for an individual photo so it no longer depends on the system library; a referenced photo may be unavailable if the original is deleted, exists only in iCloud, or access is revoked. Photos imported with the system picker or camera are stored as local copies. The library remains on this device until you delete it or uninstall the app, is excluded from iCloud backup, and is never uploaded. Directly opening a system photo for editing uses a temporary copy that is cleared when you switch away. The app can browse your library only after you explicitly allow access to the Photo Library. If you don't allow it, you can still import with the system picker, and the app sees only the photos you choose.</p>
 
     <h3>3. Permissions</h3>
     <ul>
       <li><strong>Camera</strong>: used only when you choose to take a photo that needs redaction.</li>
-      <li><strong>Photo Library (add-only)</strong>: used only to save the redacted copy back to your library. The app never requests read access to your library.</li>
+      <li><strong>Photo Library (read, optional)</strong>: requested only when you open the Photo Library tab; used to browse and pick photos. If you decline, you can still import with the system picker.</li>
+      <li><strong>Photo Library (add-only)</strong>: used only to save the redacted copy back to your library.</li>
     </ul>
     <p>You can revoke these permissions at any time in Settings; sharing still works after revocation.</p>
 
@@ -92,7 +93,7 @@
     <p>The app does not collect any information from children, or from anyone else.</p>
 
     <h3>7. Your choices</h3>
-    <p>You can clear imported photos at any time inside the app. Uninstalling the app deletes all local data.</p>
+    <p>You can delete individual photos or clear the App Library at any time inside the app. Uninstalling the app deletes all local data. Originals in the Photos library are never modified.</p>
 
     <h3>8. Changes</h3>
     <p>If this policy changes, we will update this page in the app and revise the effective date.</p>
@@ -104,18 +105,19 @@
   <!-- Japanese -->
   <section id="ja" lang="ja">
     <h2>日本語</h2>
-    <p class="muted">発効日：2026年11月22日</p>
+    <p class="muted">発効日：2026年11月24日</p>
 
     <h3>1. データを一切収集しません</h3>
-    <p>NubPic は、あなたの個人情報を収集・アップロード・保存しません。アプリ内にネットワーク通信のコードはなく、広告・解析・クラッシュレポート・プッシュ通知の SDK も含まれていません。機内モードでもすべての機能を利用できます。</p>
+    <p>NubPic はあなたの個人情報を収集・アップロードせず、開発者のサーバーにもデータを保存しません。写真は端末内でのみ処理され、明示的に取り込んだ写真も端末内にのみ保存されます。アプリ内にネットワーク通信のコードはなく、広告・解析・クラッシュレポート・プッシュ通知の SDK も含まれていません。機内モードでも、取り込み・マスク・書き出しは利用できます。iCloud にのみ保存されている写真は、先にダウンロードが必要です。</p>
 
     <h3>2. 写真の扱い</h3>
-    <p>選択した写真は、端末内で検出・マスク・書き出しを行うためだけに、アプリのサンドボックス内の一時ディレクトリにコピーされます。このディレクトリはアプリの終了時または再起動時に消去されます。写真ライブラリ内の他の写真にアクセスすることはできません。</p>
+    <p>「アプリライブラリ」に明示的に取り込んだ写真は、端末内で検出・マスク・書き出しを行うためだけに、アプリのローカルライブラリに保存されます。システム写真から取り込んだ場合は、既定では参照とプレビューだけを保存し、元画像は写真アプリに残ります。開くときや書き出すときにのみ読み込み、写真ライブラリへのアクセスが必要です。写真ごとに元画像を保存でき、その後はシステムライブラリに依存しません。元画像が削除された場合、iCloud にのみ存在する場合、権限が取り消された場合、参照写真は開けないことがあります。システム選択画面やカメラから取り込んだ写真はローカルコピーとして保存されます。ライブラリは削除するかアプリを削除するまで端末内に残り、iCloud バックアップには含まれず、アップロードもされません。システムの写真を直接開いて編集する場合は一時コピーを使用し、別の写真に切り替えると消去されます。写真ライブラリ全体へのアクセスは、あなたが「写真ライブラリ」を有効にした場合のみ要求されます。許可しない場合もシステムの選択画面から取り込めます。</p>
 
     <h3>3. 権限</h3>
     <ul>
       <li><strong>カメラ</strong>：マスク処理する写真を撮影するときだけ使用します。</li>
-      <li><strong>写真ライブラリ（追加のみ）</strong>：処理後のコピーをライブラリに保存するためだけに使用します。ライブラリ全体の読み取り権限は要求しません。</li>
+      <li><strong>写真ライブラリ（読み取り、任意）</strong>：あなたが「写真ライブラリ」を開いたときだけ要求します。拒否してもシステム選択画面から取り込めます。</li>
+      <li><strong>写真ライブラリ（追加のみ）</strong>：処理後のコピーを保存するためだけに使用します。</li>
     </ul>
     <p>これらの権限はいつでも設定から取り消せます。取り消した後も共有から書き出せます。</p>
 
@@ -129,7 +131,7 @@
     <p>本アプリは子どもからも、誰からも情報を収集しません。</p>
 
     <h3>7. あなたの選択</h3>
-    <p>アプリ内で読み込んだ写真をいつでも消去できます。アプリを削除すると、すべてのローカルデータが削除されます。</p>
+    <p>アプリ内で写真を個別に削除するか、アプリライブラリを消去できます。アプリを削除すると、すべてのローカルデータが削除されます（写真アプリの元画像は変更されません）。</p>
 
     <h3>8. ポリシーの変更</h3>
     <p>本ポリシーを変更する場合は、アプリ内のこのページを更新し、発効日を改定します。</p>
@@ -141,18 +143,19 @@
   <!-- Simplified Chinese -->
   <section id="zh-hans" lang="zh-Hans">
     <h2>简体中文</h2>
-    <p class="muted">生效日期：2026 年 11 月 22 日</p>
+    <p class="muted">生效日期：2026 年 11 月 24 日</p>
 
     <h3>一、我们不收集任何数据</h3>
-    <p>NubPic 不收集、不上传、不存储你的任何个人信息。App 内没有任何网络请求代码，也没有广告、统计、崩溃上报或推送 SDK。开启飞行模式后，所有功能仍然可用。</p>
+    <p>NubPic 不收集、不上传你的任何个人信息，开发者的服务器上也不保存任何数据。照片只在你自己的设备上处理；显式导入资料库的照片也仅保存在本机。App 内没有任何网络请求代码，也没有广告、统计、崩溃上报或推送 SDK。开启飞行模式后，导入、打码和导出仍可正常使用；仅存于 iCloud 的照片需要先下载。</p>
 
     <h3>二、照片如何处理</h3>
-    <p>你选择的照片会被复制到 App 沙盒的临时目录，仅用于在本机完成识别、遮挡和导出。App 退出或重新启动时，临时目录会被清空。我们无法访问你相册中的其它照片。</p>
+    <p>你主动导入到「软件资料库」的照片会保存在 App 的本地资料库，仅用于在本机完成识别、遮挡和导出。从系统相册导入时，默认只保存引用和预览，原图仍留在系统相册；打开或导出时才会按需读取，需保留照片图库权限。你可以为单张照片保存原图，之后不依赖系统相册；若系统原图被删除、仅存于 iCloud 或权限被撤销，引用项可能无法打开。通过系统选择器或相机导入的照片会直接保存本地副本。资料库会保留到你删除或卸载 App，不进入 iCloud 备份，也不会被上传。直接点开系统照片进行编辑时会使用临时副本，切走后清理。只有在你主动授权「照片图库」后，App 才能浏览相册；未授权时仍可通过系统选择器导入，App 只能看到你明确选中的照片。</p>
 
     <h3>三、权限</h3>
     <ul>
       <li><strong>相机</strong>：仅在你主动拍照时使用，用于拍摄需要处理的照片。</li>
-      <li><strong>相册（仅添加）</strong>：仅用于把处理后的副本保存回相册。App 不申请读取整个相册的权限。</li>
+      <li><strong>相册（读取，可选）</strong>：只有你主动开启「照片图库」时才会请求；用于浏览并选择要处理的照片。拒绝后仍可用系统选择器导入，不影响核心功能。</li>
+      <li><strong>相册（仅添加）</strong>：仅用于把处理后的副本保存回相册。</li>
     </ul>
     <p>你可以随时在系统设置中撤销这些权限；撤销后仍可通过系统分享导出。</p>
 
@@ -166,7 +169,7 @@
     <p>本 App 不面向儿童收集任何信息，也不收集任何用户信息。</p>
 
     <h3>七、你的选择</h3>
-    <p>你可以随时在 App 内清空已导入的照片；卸载 App 会删除全部本地数据。</p>
+    <p>你可以随时在 App 内删除单张照片或清空软件资料库；卸载 App 会删除全部本地数据（系统相册中的原图始终不受影响）。</p>
 
     <h3>八、政策变更</h3>
     <p>如果本政策发生变更，我们会在 App 内更新本页面，并更新生效日期。</p>
@@ -178,18 +181,19 @@
   <!-- Traditional Chinese -->
   <section id="zh-hant" lang="zh-Hant">
     <h2>繁體中文</h2>
-    <p class="muted">生效日期：2026 年 11 月 22 日</p>
+    <p class="muted">生效日期：2026 年 11 月 24 日</p>
 
     <h3>一、我們不收集任何資料</h3>
-    <p>NubPic 不收集、不上傳、不儲存你的任何個人資訊。App 內沒有任何網路請求程式碼，也沒有廣告、統計、當機回報或推播 SDK。開啟飛航模式後，所有功能仍可正常使用。</p>
+    <p>NubPic 不收集、不上傳你的任何個人資訊，開發者的伺服器上也不保存任何資料。照片只在你自己的裝置上處理；明確匯入圖庫的照片也僅保存在本機。App 內沒有任何網路請求程式碼，也沒有廣告、統計、當機回報或推播 SDK。開啟飛航模式後，匯入、遮罩與匯出仍可正常使用；僅存於 iCloud 的照片需要先下載。</p>
 
     <h3>二、照片如何處理</h3>
-    <p>你選擇的照片會被複製到 App 沙盒的暫存目錄，僅用於在本機完成辨識、遮罩與匯出。App 結束或重新啟動時，暫存目錄會被清空。我們無法存取你相簿中的其他照片。</p>
+    <p>你主動匯入到「軟體圖庫」的照片會保存在 App 的本機圖庫，僅用於在本機完成辨識、遮罩與匯出。從系統相簿匯入時，預設只保存引用與預覽，原圖仍留在系統相簿；開啟或匯出時才會按需讀取，需保留照片圖庫權限。你可以為單張照片儲存原圖，之後不依賴系統相簿；若系統原圖被刪除、僅存於 iCloud 或權限被撤銷，引用項可能無法開啟。透過系統選擇器或相機匯入的照片會直接保存本機副本。圖庫會保留到你刪除或解除安裝 App，不會進入 iCloud 備份，也不會被上傳。直接點開系統照片進行編輯時會使用暫存副本，切換後清理。只有在你主動授權「照片圖庫」後，App 才能瀏覽相簿；未授權時仍可透過系統選擇器匯入，App 只能看到你明確選取的照片。</p>
 
     <h3>三、權限</h3>
     <ul>
       <li><strong>相機</strong>：僅在你主動拍照時使用，用於拍攝需要處理的照片。</li>
-      <li><strong>相簿（僅新增）</strong>：僅用於將處理後的副本儲存回相簿。App 不申請讀取整個相簿的權限。</li>
+      <li><strong>相簿（讀取，可選）</strong>：只有你主動開啟「照片圖庫」時才會請求；用於瀏覽並選取要處理的照片。拒絕後仍可用系統選擇器匯入，不影響核心功能。</li>
+      <li><strong>相簿（僅新增）</strong>：僅用於將處理後的副本儲存回相簿。</li>
     </ul>
     <p>你可以隨時在系統設定中撤銷這些權限；撤銷後仍可透過系統分享匯出。</p>
 
@@ -203,7 +207,7 @@
     <p>本 App 不向兒童收集任何資訊，也不收集任何使用者資訊。</p>
 
     <h3>七、你的選擇</h3>
-    <p>你可以隨時在 App 內清空已匯入的照片；解除安裝 App 會刪除全部本機資料。</p>
+    <p>你可以隨時在 App 內刪除單張照片或清空軟體圖庫；解除安裝 App 會刪除全部本機資料（系統相簿中的原圖始終不受影響）。</p>
 
     <h3>八、政策變更</h3>
     <p>如果本政策發生變更，我們會在 App 內更新此頁面，並更新生效日期。</p>

@@ -4,6 +4,10 @@ Public privacy policy and support information for **NubPic**, an on-device photo
 
 NubPic does not collect any data. All photo processing happens on your device, and the app contains no networking code.
 
+Photo-library access is optional: grant it to browse your full library in-app, or decline and keep using the system picker. Either way, photos never leave the device.
+
+Photos you explicitly import into the app's on-device library stay on the device. System-library imports keep only a reference and a preview; the original is read on demand, and you can save it for offline use. The library is excluded from iCloud backup.
+
 ## Languages
 
 - [English](privacy/en.md)
@@ -24,4 +28,4 @@ https://iiichika.github.io/nubpic-privacy/
 Developer: 千夏(Chiho)  
 Email: i@kiho.cc
 
-Effective date: November 22, 2026
+Effective date: November 24, 2026
