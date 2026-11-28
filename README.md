@@ -15,12 +15,13 @@ Photos you explicitly import into the app's on-device library stay on the device
 - [简体中文](privacy/zh-Hans.md)
 - [繁體中文](privacy/zh-Hant.md)
 
-## Published page
+## Published pages
 
-This repository is intended to be served with GitHub Pages. The root `index.html` contains all four languages on a single page.
+This repository is intended to be served with GitHub Pages. The root `index.html` contains all four languages on a single page. `support/index.html` contains the support FAQ in the same four languages.
 
 ```
 https://iiichika.github.io/nubpic-privacy/
+https://iiichika.github.io/nubpic-privacy/support/
 ```
 
 ## Contact

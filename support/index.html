@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NubPic — Support</title>
+<meta name="description" content="NubPic support and frequently asked questions in English, Japanese, Simplified Chinese, and Traditional Chinese.">
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans",
+                 "Hiragino Kaku Gothic ProN", "PingFang SC", "PingFang TC",
+                 "Microsoft YaHei", sans-serif;
+    line-height: 1.75;
+    color: #1d1d1f;
+    background: #ffffff;
+  }
+  main { max-width: 780px; margin: 0 auto; padding: 48px 22px 96px; }
+  h1 { font-size: 30px; line-height: 1.3; margin: 0 0 6px; }
+  h2 { font-size: 24px; margin: 56px 0 8px; padding-top: 28px; border-top: 1px solid rgba(127,127,127,.28); }
+  h3 { font-size: 17px; margin: 28px 0 6px; }
+  p, ul { margin: 8px 0 14px; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: #0066cc; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav { margin: 24px 0 8px; display: flex; flex-wrap: wrap; gap: 10px 18px; }
+  nav a { font-size: 15px; }
+  .muted { color: #6e6e73; font-size: 14px; }
+  .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+  .mark {
+    width: 44px; height: 44px; border-radius: 11px; background: #10b981;
+    display: inline-flex; align-items: center; justify-content: center;
+    color: #fff; font-size: 22px; font-weight: 700;
+  }
+  .card {
+    margin: 24px 0; padding: 18px 20px; border-radius: 14px;
+    background: rgba(16,185,129,.10); border: 1px solid rgba(16,185,129,.28);
+  }
+  footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid rgba(127,127,127,.28); }
+  section { scroll-margin-top: 20px; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f5f5f7; background: #000; }
+    a { color: #2997ff; }
+    .muted { color: #98989d; }
+    .card { background: rgba(16,185,129,.14); }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <div class="brand">
+    <span class="mark" aria-hidden="true">N</span>
+    <div>
+      <h1>NubPic — Support</h1>
+      <div class="muted">Version 1.0 · iPhone and iPad · iOS 17 or later</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <strong>Email:</strong> <a href="mailto:i@kiho.cc">i@kiho.cc</a><br>
+    We usually reply within a few days. Please include your device model, iOS version, and the steps that led to the issue. Do not send photos that contain personal information.
+  </div>
+
+  <p class="muted">Available in English, 日本語, 简体中文, and 繁體中文. <a href="../">Privacy Policy</a></p>
+
+  <nav aria-label="Languages">
+    <a href="#en">English</a>
+    <a href="#ja">日本語</a>
+    <a href="#zh-hans">简体中文</a>
+    <a href="#zh-hant">繁體中文</a>
+  </nav>
+
+  <!-- English -->
+  <section id="en" lang="en">
+    <h2>English</h2>
+
+    <h3>Does NubPic upload my photos?</h3>
+    <p>No. All detection, masking, and export happen on your device. The app contains no networking code, no account, no ads, no analytics, and no third-party SDKs. It works fully in Airplane Mode. Photos that exist only in iCloud must be downloaded by the system first.</p>
+
+    <h3>Why can't I open a photo from the library?</h3>
+    <p>Photos imported from the system library are references by default. A reference can fail to open if the original was deleted, exists only in iCloud while offline, or Photo Library access was revoked. Reconnect or download the photo in Photos, restore access in Settings, or re-import it. You can also save the original inside NubPic so it no longer depends on the system library.</p>
+
+    <h3>Where is my library stored? Is it backed up?</h3>
+    <p>The library is stored only on this device and is excluded from iCloud backup. Deleting the app deletes the library. Photos in your system library are never modified.</p>
+
+    <h3>Automatic detection missed something. What should I do?</h3>
+    <p>Detection can miss items in complex backgrounds, angled text, or unusual formats. Add a manual mask by dragging on the image, then use the pre-export check. Always review the result yourself before sharing.</p>
+
+    <h3>Why is the watermark off by default?</h3>
+    <p>The watermark is optional. Open the watermark panel from the bottom bar, turn on the visibility switch, and edit the text if needed. The default text is “NubPic”; size, opacity, color, columns, rotation, and line spacing are adjustable.</p>
+
+    <h3>Why is the exported image smaller than the original?</h3>
+    <p>To keep very large photos stable, images with a long edge above 8192 px are downsampled on export. The app shows a notice when this applies. Ordinary photos export at their original resolution.</p>
+
+    <h3>How do I report a bug or request a feature?</h3>
+    <p>Email <a href="mailto:i@kiho.cc">i@kiho.cc</a> with your device model, iOS version, a short description, and whether the issue can be reproduced. Screenshots are helpful, but please mask any personal information first.</p>
+  </section>
+
+  <!-- Japanese -->
+  <section id="ja" lang="ja">
+    <h2>日本語</h2>
+
+    <h3>写真はアップロードされますか？</h3>
+    <p>いいえ。検出・マスク・書き出しはすべて端末内で行われます。アプリにネットワーク通信のコード、アカウント、広告、解析、サードパーティ SDK はありません。機内モードでも利用できます。iCloud にのみ存在する写真は、システムが先にダウンロードする必要があります。</p>
+
+    <h3>ライブラリの写真を開けないのはなぜですか？</h3>
+    <p>システム写真から取り込んだ写真は、既定では参照として保存されます。元画像が削除された場合、オフラインで iCloud にのみ存在する場合、写真ライブラリの権限が取り消された場合などに開けなくなります。写真アプリでダウンロードするか、設定で権限を戻すか、再取り込みしてください。NubPic 内に元画像を保存すれば、システム写真に依存しなくなります。</p>
+
+    <h3>ライブラリはどこに保存されますか？バックアップされますか？</h3>
+    <p>ライブラリはこの端末内にのみ保存され、iCloud バックアップから除外されます。アプリを削除するとライブラリも削除されます。システム写真の元画像は変更されません。</p>
+
+    <h3>自動検出が見落としました。どうすればよいですか？</h3>
+    <p>複雑な背景、傾いた文字、特殊な形式では見落とすことがあります。画像上をドラッグして手動でマスクを追加し、書き出し前チェックを確認してください。共有前には必ずご自身で確認してください。</p>
+
+    <h3>文字透かしが初期状態でオフなのはなぜですか？</h3>
+    <p>透かしは任意の機能です。下部バーの透かしパネルを開き、表示スイッチをオンにしてください。初期テキストは「NubPic」で、サイズ、透明度、色、列数、回転、行間を調整できます。</p>
+
+    <h3>書き出した画像が元より小さいのはなぜですか？</h3>
+    <p>非常に大きな写真の安定性のため、長辺が 8192px を超える画像は書き出し時に縮小されます。該当する場合はアプリ内に案内が表示されます。通常の写真は元の解像度で書き出されます。</p>
+
+    <h3>不具合の報告や機能の要望はどこに送ればよいですか？</h3>
+    <p><a href="mailto:i@kiho.cc">i@kiho.cc</a> まで、端末の機種、iOS のバージョン、症状と再現手順をお送りください。スクリーンショットは助かりますが、個人情報は必ずマスクしてください。</p>
+  </section>
+
+  <!-- Simplified Chinese -->
+  <section id="zh-hans" lang="zh-Hans">
+    <h2>简体中文</h2>
+
+    <h3>照片会上传吗？</h3>
+    <p>不会。识别、打码和导出全部在你的设备上完成。App 没有网络请求代码、没有账号、没有广告、没有统计，也没有第三方 SDK，飞行模式下可完整使用。仅存于 iCloud 的照片需要先由系统下载。</p>
+
+    <h3>为什么资料库里的照片打不开？</h3>
+    <p>从系统相册导入的照片默认只保存引用。原图被删除、仅存于 iCloud 且当前离线、或照片图库权限被撤销时，引用项可能无法打开。可在系统相册中下载原图、在设置中恢复权限，或重新导入。也可以在 NubPic 内为单张照片保存原图，之后不再依赖系统相册。</p>
+
+    <h3>资料库存在哪里？会备份吗？</h3>
+    <p>资料库只保存在本机，并排除在 iCloud 备份之外。卸载 App 会删除资料库；系统相册中的原图始终不会被修改。</p>
+
+    <h3>自动识别漏掉了怎么办？</h3>
+    <p>复杂背景、倾斜文字或特殊格式可能漏检。在图片上拖动即可手动补框，然后查看导出前检查。分享前请务必自己再确认一遍。</p>
+
+    <h3>为什么水印默认是关的？</h3>
+    <p>水印是可选功能。从底栏打开水印面板，打开显示开关即可，文字可修改。默认文字是“NubPic”，字号、透明度、颜色、列数、旋转和行距都可以调整。</p>
+
+    <h3>为什么导出图比原图小？</h3>
+    <p>为保证超大图片稳定导出，长边超过 8192px 的图片会在导出时降采样，界面会给出提示。普通照片按原分辨率导出。</p>
+
+    <h3>如何反馈问题或提建议？</h3>
+    <p>请发邮件到 <a href="mailto:i@kiho.cc">i@kiho.cc</a>，说明设备型号、iOS 版本、问题现象和复现步骤。截图有帮助，但请先遮住个人信息。</p>
+  </section>
+
+  <!-- Traditional Chinese -->
+  <section id="zh-hant" lang="zh-Hant">
+    <h2>繁體中文</h2>
+
+    <h3>照片會上傳嗎？</h3>
+    <p>不會。辨識、遮罩與匯出全部在你的裝置上完成。App 沒有網路請求程式碼、沒有帳號、沒有廣告、沒有統計，也沒有第三方 SDK，飛航模式下可完整使用。僅存於 iCloud 的照片需要先由系統下載。</p>
+
+    <h3>為什麼圖庫裡的照片打不開？</h3>
+    <p>從系統相簿匯入的照片預設只保存引用。原圖被刪除、僅存於 iCloud 且目前離線、或照片圖庫權限被撤銷時，引用項可能無法開啟。可在系統相簿中下載原圖、在設定中恢復權限，或重新匯入。也可以在 NubPic 內為單張照片儲存原圖，之後不再依賴系統相簿。</p>
+
+    <h3>圖庫存在哪裡？會備份嗎？</h3>
+    <p>圖庫只保存在本機，並排除在 iCloud 備份之外。解除安裝 App 會刪除圖庫；系統相簿中的原圖始終不會被修改。</p>
+
+    <h3>自動辨識漏掉了怎麼辦？</h3>
+    <p>複雜背景、傾斜文字或特殊格式可能漏檢。在圖片上拖動即可手動補框，然後查看匯出前檢查。分享前請務必自己再確認一遍。</p>
+
+    <h3>為什麼浮水印預設是關的？</h3>
+    <p>浮水印是選用功能。從底部列打開浮水印面板，開啟顯示開關即可，文字可修改。預設文字是「NubPic」，字級、透明度、顏色、欄數、旋轉與行距都可以調整。</p>
+
+    <h3>為什麼匯出圖比原圖小？</h3>
+    <p>為確保超大圖片穩定匯出，長邊超過 8192px 的圖片會在匯出時降採樣，介面會給出提示。一般照片按原解析度匯出。</p>
+
+    <h3>如何回報問題或提出建議？</h3>
+    <p>請寄信到 <a href="mailto:i@kiho.cc">i@kiho.cc</a>，說明裝置型號、iOS 版本、問題現象與重現步驟。截圖有幫助，但請先遮住個人資訊。</p>
+  </section>
+
+  <footer>
+    <p class="muted">NubPic · 千夏(Chiho) · <a href="mailto:i@kiho.cc">i@kiho.cc</a> · <a href="../">Privacy Policy</a></p>
+  </footer>
+
+</main>
+</body>
+</html>
